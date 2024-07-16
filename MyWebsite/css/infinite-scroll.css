@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background: url(../img/bg.jpg) rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+/* Loader */
+
+.loader {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loading-text {
+    margin-top: 50px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
